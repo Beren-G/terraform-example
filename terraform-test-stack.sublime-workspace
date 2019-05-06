@@ -1,0 +1,473 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"add",
+				"add_symbol_to_portfolio"
+			],
+			[
+				"q",
+				"quote_currency_qty"
+			],
+			[
+				"ent",
+				"entry_type"
+			],
+			[
+				"quote_cur",
+				"quote_currency_qty"
+			],
+			[
+				"base_cur",
+				"base_currency_qty"
+			],
+			[
+				"base",
+				"base_currency_qty"
+			],
+			[
+				"quote",
+				"quote_currency_qty"
+			],
+			[
+				"GetBit",
+				"GetBitFinexWalletType"
+			],
+			[
+				"binance",
+				"binance_portfolio"
+			],
+			[
+				"bit",
+				"bitfinex_portfolio"
+			],
+			[
+				"ta",
+				"taker_buy_quote_asset_vol"
+			],
+			[
+				"da",
+				"days_since_listed"
+			],
+			[
+				"tak",
+				"taker_buy_quote_asset_vol"
+			],
+			[
+				"get",
+				"getBinanceTrades"
+			],
+			[
+				"tim",
+				"timestamp"
+			],
+			[
+				"order",
+				"orderType"
+			],
+			[
+				"ex",
+				"executedAmount"
+			],
+			[
+				"exe",
+				"executedQty"
+			],
+			[
+				"api_",
+				"api_secret"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "main.tf",
+			"settings":
+			{
+				"buffer_size": 388,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "modules/ec2-instances/main.tf",
+			"settings":
+			{
+				"buffer_size": 1378,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+		[
+			[
+				[
+					"Packages/Python/Python.sublime-build",
+					""
+				],
+				[
+					"Packages/Python/Python.sublime-build",
+					"Syntax Check"
+				]
+			],
+			[
+				"Packages/Python/Python.sublime-build",
+				""
+			]
+		]
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"virt",
+				"Virtualenv: Activate"
+			],
+			[
+				"virtual",
+				"Virtualenv: New (venv)"
+			]
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/Users/beren/Sites/terraform-aws",
+		"/Users/beren/Sites/terraform-aws/modules",
+		"/Users/beren/Sites/terraform-aws/modules/ec2-instances"
+	],
+	"file_history":
+	[
+		"/Users/beren/Sites/aqaq-container/docker-compose.yml",
+		"/Users/beren/Library/Mobile Documents/com~apple~CloudDocs/Sites/aqaq-container/docker-env",
+		"/Users/beren/Desktop/semiprimes",
+		"/Users/beren/Sites/Reporting/venv/lib/python3.7/site-packages/bitfinex/rest/restv2.py",
+		"/Users/beren/Sites/Reporting/models.py",
+		"/Users/beren/Sites/aqaq/lib/Ebizmarts/MailChimp/ListsMembers.php",
+		"/Users/beren/Library/Caches/Cleanup At Startup/Transmit/7F59C6A1-5F3F-4183-900A-0E19387F7A20/models.py",
+		"/Users/beren/Library/Caches/Cleanup At Startup/Transmit/889D3875-A5A3-492C-A05D-0666929BD6E4/runquery.php",
+		"/Users/beren/Sites/bot/circlebot.py",
+		"/Users/beren/Sites/crypto/application/controllers/Paths.php",
+		"/Users/beren/Sites/crypto/application/models/Path_model.php",
+		"/Users/beren/Sites/bot/paths.json",
+		"/Users/beren/Downloads/hitbtc-depth-cache/test2_with_binance.py",
+		"/Users/beren/Sites/botV2/test2_with_binance.py",
+		"/Users/beren/Sites/bot/test.py",
+		"/Users/beren/Sites/bot/spread-bot.py",
+		"/Users/beren/Sites/bot/profitable.txt",
+		"/Users/beren/Sites/bot/poloniex.py",
+		"/private/var/folders/pc/kslrghn95jq90jd_2sdf6gdc0000gn/T/com.microsoft.Outlook/Outlook Temp/samples.py",
+		"/Users/beren/Desktop/Rocbot",
+		"/Users/beren/Tresors/BSC R&D Projects/Starcore/config.py",
+		"/Users/beren/Library/Caches/Cleanup At Startup/Transmit/A3FDDD3E-4C71-4A82-AB45-1DBFFE3F90CD/runquery.php",
+		"/Users/beren/Desktop/Manual Entries.sql",
+		"/Users/beren/Library/Caches/Cleanup At Startup/Transmit/A1A4F651-76B4-4345-99F1-FCA4CF7552E4/candles.py",
+		"/Users/beren/Sites/Reporting/config.py",
+		"/Users/beren/Sites/Reporting/portfolio.py",
+		"/Users/beren/Sites/Reporting/scratch.py",
+		"/Users/beren/Sites/Reporting/trade.py",
+		"/Users/beren/Sites/Reporting/balance.py",
+		"/Users/beren/Sites/Reporting/ex_binance.py",
+		"/Users/beren/Sites/Reporting/app.py",
+		"/Users/beren/Sites/Reporting/templates/reconcile.html",
+		"/Users/beren/Sites/Reporting/scratch2.py",
+		"/Users/beren/Sites/Reporting/ledgerentry.py",
+		"/Users/beren/Sites/Reporting/ex_bitfinex.py",
+		"/Users/beren/Sites/Reporting/bitfinexpy.py",
+		"/Users/beren/Sites/Reporting/scratch4.py",
+		"/Users/beren/Sites/Reporting/cmc.py",
+		"/Users/beren/Sites/Reporting/old.py",
+		"/Users/beren/Sites/Reporting/models_class.py",
+		"/Users/beren/Sites/Reporting/candles.py",
+		"/Users/beren/Sites/Reporting/scheduled.py",
+		"/Users/beren/Sites/Reporting/sql.py",
+		"/Users/beren/Sites/Reporting/helpers.py",
+		"/Users/beren/Sites/Reporting/scratch3.py",
+		"/Users/beren/Sites/Reporting/binance_api.py",
+		"/Users/beren/Sites/Reporting/bitfinexledger.py",
+		"/Users/beren/Sites/Reporting/bitfinex_api.py",
+		"/Users/beren/Sites/Reporting/cmc_api.py",
+		"/Users/beren/Sites/Reporting/query.sql",
+		"/Users/beren/Sites/Reporting_dev/models.py",
+		"/Users/beren/Sites/Reporting_dev/app.py",
+		"/Users/beren/Sites/Reporting_dev/config.py",
+		"/Users/beren/Sites/Reporting_live/cmc_api_scrape.py",
+		"/Users/beren/Sites/Reporting_live/scratch.py",
+		"/Users/beren/Sites/Reporting_live/scratch2.py",
+		"/Users/beren/Sites/Reporting_live/binance_api.py",
+		"/Users/beren/Sites/Reporting_live/bitfinex_api.py",
+		"/Users/beren/Sites/Reporting_live/helpers.py",
+		"/Users/beren/Sites/Reporting_live/app.py",
+		"/Users/beren/Sites/Reporting_live/models.py",
+		"/Users/beren/Sites/Reporting_live/cmclistings.json",
+		"/Users/beren/Sites/Reporting_live/bitfinexpy.py",
+		"/Users/beren/Sites/Oscillobot/ws.py",
+		"/Users/beren/Sites/Oscillobot/bnws.py",
+		"/Users/beren/Sites/Oscillobot/bitmex_ws.py",
+		"/Users/beren/Sites/Oscillobot/bitfinex_api.py",
+		"/Users/beren/Sites/Oscillobot/bfxmanual.py",
+		"/Users/beren/Sites/Oscillobot/Oscillobot.sublime-project",
+		"/Users/beren/Sites/Oscillobot/bfxws",
+		"/Users/beren/Sites/Reporting_live/requirements.txt",
+		"/Users/beren/Sites/Reporting_live/forex.py",
+		"/Users/beren/Sites/Reporting_dev/scratch.py",
+		"/Users/beren/Sites/Reporting_live/config.py",
+		"/Users/beren/Library/Caches/Cleanup At Startup/Transmit/5FD8B741-EE7D-437C-A80E-F0A00674DA1D/contract.php",
+		"/Users/beren/Sites/BSTS_Reporting/config.py",
+		"/Users/beren/Library/Application Support/Sublime Text 3/Packages/Virtualenv/README.md",
+		"/Users/beren/Sites/BSTS_Reporting/BSTS_Reporting.sublime-project",
+		"/Users/beren/Sites/BSTS_Reporting/scratch.py",
+		"/Users/beren/Sites/BSTS_Reporting/templates/about.html",
+		"/Users/beren/Sites/BSTS_Reporting/templates/home.html",
+		"/Users/beren/Sites/BSTS_Reporting/templates/layout.html",
+		"/Users/beren/Sites/BSTS_Reporting/templates/includes/_navbar.html",
+		"/Users/beren/Sites/BSTS_Reporting/db_create.py",
+		"/Users/beren/Sites/BSTS_Reporting/trade_getter/app.py",
+		"/Users/beren/Sites/BSTS_Reporting/untitled",
+		"/Users/beren/Sites/BSTS Reporting/forex.py",
+		"/Users/beren/Sites/algo/rocbot/roc_bot/cfg/BTC/ZECBTC-trade.yml",
+		"/Users/beren/Sites/algo/rocbot/roc_bot/cfg/BTC/XRPBTC-trade.yml",
+		"/Users/beren/Sites/algo/rocbot/roc_bot/cfg/BTC/XMRBTC-trade.yml",
+		"/Users/beren/Sites/algo/rocbot/roc_bot/cfg/BTC/XLMBTC-trade.yml",
+		"/Users/beren/Sites/algo/rocbot/roc_bot/cfg/BTC/VENBTC-trade.yml",
+		"/Users/beren/Sites/algo/rocbot/roc_bot/cfg/BTC/SCBTC-trade.yml",
+		"/Users/beren/Sites/algo/rocbot/roc_bot/cfg/BTC/QKCBTC-trade.yml",
+		"/Users/beren/Sites/algo/rocbot/roc_bot/cfg/BTC/NEOBTC-trade.yml",
+		"/Users/beren/Sites/algo/rocbot/roc_bot/cfg/BTC/LTCBTC-trade.yml",
+		"/Users/beren/Sites/algo/rocbot/roc_bot/cfg/BTC/LSKBTC-trade.yml",
+		"/Users/beren/Sites/algo/rocbot/roc_bot/cfg/BTC/LOOMBTC-trade.yml",
+		"/Users/beren/Sites/algo/rocbot/roc_bot/cfg/BTC/IOTABTC-trade.yml",
+		"/Users/beren/Sites/algo/rocbot/roc_bot/cfg/BTC/GNTBTC-trade.yml",
+		"/Users/beren/Sites/algo/rocbot/roc_bot/cfg/BTC/ETHBTC-trade.yml",
+		"/Users/beren/Sites/algo/rocbot/roc_bot/cfg/BTC/ETCBTC-trade.yml",
+		"/Users/beren/Sites/algo/rocbot/roc_bot/cfg/BTC/EOSBTC-trade.yml",
+		"/Users/beren/Sites/algo/rocbot/roc_bot/cfg/BTC/BNBBTC-trade.yml",
+		"/Users/beren/Sites/algo/rocbot/roc_bot/cfg/BTC/BCNBTC-trade.yml",
+		"/Users/beren/Sites/algo/rocbot/roc_bot/cfg/BTC/BCCBTC-trade.yml",
+		"/Users/beren/Sites/algo/rocbot/roc_bot/exchanges/validation/binance.yml",
+		"/Users/beren/Sites/algo/rocbot/roc_bot/cfg/BTC/ADABTC-trade.yml",
+		"/Users/beren/Sites/backtesting/rocbot/backtest.py",
+		"/Users/beren/Library/Caches/Cleanup At Startup/Transmit/BAD7F770-CE24-45D9-81B2-04ACF1B77B0C/index.php",
+		"/Users/beren/Desktop/page.html",
+		"/Users/beren/Library/Caches/Cleanup At Startup/Transmit/1B7E205B-0A56-4DD0-B15F-AC6B00B4349A/503.php",
+		"/Users/beren/Library/Caches/Cleanup At Startup/Transmit/71F33D35-33ED-45F5-BD6A-B1104D3B1BE7/maintenance.html",
+		"/Users/beren/Library/Caches/Cleanup At Startup/Transmit/3E78AAC7-8B33-43CC-AA90-AE29954993EB/page.phtml",
+		"/Users/beren/Library/Caches/Cleanup At Startup/Transmit/1E65C3DF-5FFC-4C8E-BA66-2F8A275E70D1/503.php",
+		"/Users/beren/Desktop/bitmexorderbot.html"
+	],
+	"find":
+	{
+		"height": 24.0
+	},
+	"find_in_files":
+	{
+		"height": 101.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": false,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": false
+	},
+	"groups":
+	[
+		{
+			"selected": 1,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "main.tf",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 388,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								229,
+								229
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Terraform/Terraform.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "modules/ec2-instances/main.tf",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1378,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								506,
+								506
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Terraform/Terraform.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 24.0
+	},
+	"input":
+	{
+		"height": 36.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 439.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "Packages/Virtualenv/Python + Virtualenv.sublime-build",
+	"project": "terraform-test-stack.sublime-project",
+	"replace":
+	{
+		"height": 44.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"",
+				"~/Sites/Oscillobot/bitfinex_api.py"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 195.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
