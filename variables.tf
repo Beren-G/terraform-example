@@ -10,5 +10,5 @@ variable "aws_credentials_profile" { default = "terraform" }
 
 variable "number_of_instances" {
     description                             = "Number of instances to create and attach to ELB"
-    default                                 = 1
+    default                                 = 2
 }

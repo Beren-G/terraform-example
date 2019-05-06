@@ -1,6 +1,6 @@
 variable "application_name"     {}
 variable "environment"          {}
-variable "s3_bucket"            {}
+variable "log_bucket"            {}
 # variable "attached_instances"   {}
 
 variable "attached_instances" {

@@ -3,7 +3,7 @@ resource "aws_elb" "test-stack" {
     availability_zones      = "${var.availability_zones}"
     instances               = ["${var.attached_instances}"]
     access_logs {
-        bucket              = "${var.s3_bucket}"
+        bucket              = "${var.log_bucket}"
         bucket_prefix       = "dev"
         interval            = 60
     }
