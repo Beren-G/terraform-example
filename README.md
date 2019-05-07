@@ -22,10 +22,10 @@ terraform init -backend-config=./backend.tfvars
 ## Notes
 
 
-Also on first apply, run 
+If the you get this error: "Error acquiring the state lock" - run this:
 
 ```
- NoSuchBucket: The specified bucket does not exist
+terraform apply -lock=false
 ```
 
 Caution, when you destroy, you destroy the S3 Bucket as well! This can be disabled by removing `force_destroy`
