@@ -1,3 +1,4 @@
+# This is not used in this example
 resource "aws_instance" "web" {
   count                     = "${var.number_of_instances}"
   ami                       = "${var.image_id}"

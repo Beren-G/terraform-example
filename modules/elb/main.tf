@@ -1,7 +1,7 @@
-resource "aws_elb" "test-stack" {
-    name                    = "${var.application_name}-${var.environment}-elb"
+# ELB with logging to S3
+resource "aws_elb" "web" {
+    name                    = "${var.elb_name}-elb"
     availability_zones      = "${var.availability_zones}"
-    instances               = ["${var.attached_instances}"]
     access_logs {
         bucket              = "${var.log_bucket}"
         bucket_prefix       = "dev"
@@ -23,3 +23,26 @@ resource "aws_elb" "test-stack" {
         interval            = 30
     }
 }   
+
+# Unhealthy Host Alarm with SNS action
+resource "aws_cloudwatch_metric_alarm" "unhealthy" {
+  alarm_name                = "${var.elb_name}-alarms"
+  comparison_operator       = "GreaterThanOrEqualToThreshold"
+  evaluation_periods        = "1" # set low for testing
+  metric_name               = "UnHealthyHostCount" 
+  namespace                 = "AWS/EC2"
+  period                    = "60"
+  statistic                 = "Average"
+  threshold                 = "1"
+  alarm_description         = "This metric monitors unhealthy host status"
+  insufficient_data_actions = []
+  alarm_actions             = [ "${aws_sns_topic.web.arn}" ]
+  dimensions                = {
+    LoadBalancerName        = "${aws_elb.web.name}"
+  }
+}
+
+# SNS topic for alarm output
+resource "aws_sns_topic" "web" {
+  name                      = "${var.elb_name}-topic"
+}

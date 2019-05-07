@@ -1,3 +1,6 @@
+# S3 Bucket for logging
+
+# Force destroy enabled !!!!!!!!!!!
 resource "aws_s3_bucket" "elb_logs" {
   bucket                    = "${var.log_bucket}"
   acl                       = "private"

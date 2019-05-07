@@ -1,12 +1,7 @@
-variable "application_name"     {}
-variable "environment"          {}
+variable "elb_name"     {}
 variable "log_bucket"            {}
 # variable "attached_instances"   {}
 
-variable "attached_instances" {
-    type                        = "list"
-    default                     = []
-}
 variable "number_of_instances" {
     description                 = "Number of instances to create and attach to ELB"
     default                     = 1
